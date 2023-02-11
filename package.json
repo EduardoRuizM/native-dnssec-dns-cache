@@ -1,0 +1,30 @@
+{
+  "name": "native-dnssec-dns-cache",
+  "version": "0.0.2",
+  "author": [
+    "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
+    "Eduardo Ruiz <eruiz@dataclick.es> (https://www.dataclick.es)"
+  ],
+  "description": "DNS Caching Library",
+  "keywords": [ "dns", "caching" ],
+  "homepage": "https://github.com/eduardoruizm/native-dnssec-dns-cache",
+  "bugs": {
+    "url": "https://github.com/eduardoruizm/native-dnssec-dns-cache/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduardoruizm/native-dnssec-dns-cache.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.5.0"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "binaryheap": ">= 0.0.3",
+    "native-dnssec-dns-packet": ">= 0.1.2"
+  },
+  "devDependencies": {
+  }
+}
